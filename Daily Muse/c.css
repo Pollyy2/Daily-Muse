@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-image: url('https://wallpaper.dog/large/17029123.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.container{
+    position: absolute;
+   
+}
+#quote {
+    border: 5px solid rgb(225, 112, 161);
+    border-radius: 8px;
+    padding: 50px;
+    margin-bottom: 10px;
+    background-color: #8d105b;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#quotesButton {
+   
+      align-items: center;
+      background-color: #8d105b;
+      border: 2px solid #111;
+      border-radius: 8px;
+      box-sizing: border-box;
+      color: #111;
+      cursor: pointer;
+      display: flex;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 16px;
+      height: 48px;
+      justify-content: center;
+      line-height: 24px;
+      max-width: 100%;
+      padding: 0 25px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      margin-left: auto;
+    margin-right: auto;
+    
+    }
+    
+    #quotesButton:after {
+      background-color: rgb(225, 112, 161);
+      border-radius: 8px;
+      content: "";
+      display: block;
+      height: 48px;
+      left: 0;
+      width: 100%;
+      position: absolute;
+      top: -2px;
+      transform: translate(8px, 8px);
+      transition: transform .2s ease-out;
+      z-index: -1;
+    }
+    
+    #quotesButton:hover:after {
+      transform: translate(0, 0);
+    }
+    
+    #quotesButton:active {
+      background-color: #961c55;
+      outline: 0;
+    }
+    
+    #quotesButton:hover {
+      outline: 0;
+    }
+    
+    @media (min-width: 768px) {
+      .button-56 {
+        padding: 0 40px;
+      }
+    
+    } 
+  
